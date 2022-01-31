@@ -2,7 +2,7 @@
 /**
  * A simple placeholder file.
  *
- * @package lhtbp
+ * @package ekihh
  */
 
 return;

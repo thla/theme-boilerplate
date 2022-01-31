@@ -2,11 +2,11 @@
 /**
  * LHTBP\Scripts\Component class
  *
- * @package lhtbp
+ * @package ekihh
  */
 
-namespace WpMunich\lhtbp\Scripts;
-use WpMunich\lhtbp\Component_Interface;
+namespace WpMunich\ekihh\Scripts;
+use WpMunich\ekihh\Component_Interface;
 use function add_action;
 
 /**
@@ -36,14 +36,14 @@ class Component implements Component_Interface {
 	 * @return void
 	 */
 	public function enqueue_scripts() {
-		$lhtbp_script_assets = include( get_template_directory() . '/js/script.min.asset.php' ); //phpcs:ignore
-		wp_enqueue_script( 'lhtbp-script', get_template_directory_uri() . '/js/script.min.js', array_merge( array( 'jquery' ), $lhtbp_script_assets['dependencies'] ), $lhtbp_script_assets['version'], true );
+		$ekihh_script_assets = include( get_template_directory() . '/js/script.min.asset.php' ); //phpcs:ignore
+		wp_enqueue_script( 'ekihh-script', get_template_directory_uri() . '/js/script.min.js', array_merge( array( 'jquery' ), $ekihh_script_assets['dependencies'] ), $ekihh_script_assets['version'], true );
 
 		$translation_array = array(
 			'themeUrl' => get_template_directory_uri(),
 			'restUrl'  => get_rest_url(),
 		);
-		wp_localize_script( 'lhtbp-script', 'lhtbp', $translation_array );
+		wp_localize_script( 'ekihh-script', 'ekihh', $translation_array );
 
 		if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 			wp_enqueue_script( 'comment-reply' );

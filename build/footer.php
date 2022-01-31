@@ -4,12 +4,12 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package lhtbp
+ * @package ekihh
  */
 
-namespace WpMunich\lhtbp;
+namespace WpMunich\ekihh;
 
-wp_lhtbp()->print_styles( 'lhtbp-footer' );
+wp_ekihh()->print_styles( 'ekihh-footer' );
 ?>
 
 <footer>

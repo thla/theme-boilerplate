@@ -9,16 +9,16 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package lhtbp
+ * @package ekihh
  */
 
-namespace WpMunich\lhtbp;
+namespace WpMunich\ekihh;
 
 get_header();
 ?>
 
 <div id="primary" class="content-area">
-	<?php wp_lhtbp()->print_styles( 'lhtbp-blocks' ); ?>
+	<?php wp_ekihh()->print_styles( 'ekihh-blocks' ); ?>
 	<main id="main" class="site-main stack">
 		<?php
 		if ( have_posts() ) :

@@ -2,12 +2,12 @@
 /**
  * WP_Rig\WP_Rig\Editor\Component class
  *
- * @package lhtbp
+ * @package ekihh
  */
 
-namespace WpMunich\lhtbp\Editor;
+namespace WpMunich\ekihh\Editor;
 
-use WpMunich\lhtbp\Component_Interface;
+use WpMunich\ekihh\Component_Interface;
 use function add_action;
 use function add_theme_support;
 
@@ -62,57 +62,57 @@ class Component implements Component_Interface {
 			'editor-color-palette',
 			array(
 				array(
-					'name'  => __( 'Primary', 'lhtbp' ),
+					'name'  => __( 'Primary', 'ekihh' ),
 					'slug'  => 'theme-primary',
 					'color' => '#e36d60',
 				),
 				array(
-					'name'  => __( 'Secondary', 'lhtbp' ),
+					'name'  => __( 'Secondary', 'ekihh' ),
 					'slug'  => 'theme-secondary',
 					'color' => '#41848f',
 				),
 				array(
-					'name'  => __( 'Red', 'lhtbp' ),
+					'name'  => __( 'Red', 'ekihh' ),
 					'slug'  => 'theme-red',
 					'color' => '#C0392B',
 				),
 				array(
-					'name'  => __( 'Green', 'lhtbp' ),
+					'name'  => __( 'Green', 'ekihh' ),
 					'slug'  => 'theme-green',
 					'color' => '#27AE60',
 				),
 				array(
-					'name'  => __( 'Blue', 'lhtbp' ),
+					'name'  => __( 'Blue', 'ekihh' ),
 					'slug'  => 'theme-blue',
 					'color' => '#2980B9',
 				),
 				array(
-					'name'  => __( 'Yellow', 'lhtbp' ),
+					'name'  => __( 'Yellow', 'ekihh' ),
 					'slug'  => 'theme-yellow',
 					'color' => '#F1C40F',
 				),
 				array(
-					'name'  => __( 'Black', 'lhtbp' ),
+					'name'  => __( 'Black', 'ekihh' ),
 					'slug'  => 'theme-black',
 					'color' => '#1C2833',
 				),
 				array(
-					'name'  => __( 'Grey', 'lhtbp' ),
+					'name'  => __( 'Grey', 'ekihh' ),
 					'slug'  => 'theme-grey',
 					'color' => '#95A5A6',
 				),
 				array(
-					'name'  => __( 'White', 'lhtbp' ),
+					'name'  => __( 'White', 'ekihh' ),
 					'slug'  => 'theme-white',
 					'color' => '#ECF0F1',
 				),
 				array(
-					'name'  => __( 'Dusty daylight', 'lhtbp' ),
+					'name'  => __( 'Dusty daylight', 'ekihh' ),
 					'slug'  => 'custom-daylight',
 					'color' => '#97c0b7',
 				),
 				array(
-					'name'  => __( 'Dusty sun', 'lhtbp' ),
+					'name'  => __( 'Dusty sun', 'ekihh' ),
 					'slug'  => 'custom-sun',
 					'color' => '#eee9d1',
 				),
@@ -129,26 +129,26 @@ class Component implements Component_Interface {
 			'editor-font-sizes',
 			array(
 				array(
-					'name'      => __( 'Small', 'lhtbp' ),
-					'shortName' => __( 'S', 'lhtbp' ),
+					'name'      => __( 'Small', 'ekihh' ),
+					'shortName' => __( 'S', 'ekihh' ),
 					'size'      => 16,
 					'slug'      => 'small',
 				),
 				array(
-					'name'      => __( 'Medium', 'lhtbp' ),
-					'shortName' => __( 'M', 'lhtbp' ),
+					'name'      => __( 'Medium', 'ekihh' ),
+					'shortName' => __( 'M', 'ekihh' ),
 					'size'      => 25,
 					'slug'      => 'medium',
 				),
 				array(
-					'name'      => __( 'Large', 'lhtbp' ),
-					'shortName' => __( 'L', 'lhtbp' ),
+					'name'      => __( 'Large', 'ekihh' ),
+					'shortName' => __( 'L', 'ekihh' ),
 					'size'      => 31,
 					'slug'      => 'large',
 				),
 				array(
-					'name'      => __( 'Larger', 'lhtbp' ),
-					'shortName' => __( 'XL', 'lhtbp' ),
+					'name'      => __( 'Larger', 'ekihh' ),
+					'shortName' => __( 'XL', 'ekihh' ),
 					'size'      => 39,
 					'slug'      => 'larger',
 				),

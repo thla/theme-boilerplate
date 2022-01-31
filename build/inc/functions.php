@@ -1,11 +1,11 @@
 <?php
 /**
- * The `wp_lhtbp()` function.
+ * The `wp_ekihh()` function.
  *
- * @package lhtbp
+ * @package ekihh
  */
 
-namespace WpMunich\lhtbp;
+namespace WpMunich\ekihh;
 
 /**
  * Provides access to all available template tags of the theme.
@@ -14,7 +14,7 @@ namespace WpMunich\lhtbp;
  *
  * @return Template_Tags Template tags instance exposing template tag methods.
  */
-function wp_lhtbp() {
+function wp_ekihh() {
 	static $theme = null;
 	if ( null === $theme ) {
 		$theme = new Theme();

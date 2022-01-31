@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package lhtbp
+ * @package ekihh
  */
 
 if ( ! defined( 'LHTBP_SLUG' ) ) {
@@ -17,8 +17,8 @@ if ( ! defined( 'LHTBP_VERSION' ) ) {
 
 require get_template_directory() . '/vendor/autoload.php';
 
-// Load the `wp_lhtbp()` entry point function.
+// Load the `wp_ekihh()` entry point function.
 require get_template_directory() . '/inc/functions.php';
 
 // Initialize the theme.
-call_user_func( 'WpMunich\lhtbp\wp_lhtbp' );
+call_user_func( 'WpMunich\ekihh\wp_ekihh' );

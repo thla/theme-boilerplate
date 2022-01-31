@@ -2,11 +2,11 @@
 /**
  * Lhplugin\ACF\Component class
  *
- * @package lhtbp
+ * @package ekihh
  */
 
-namespace WpMunich\lhtbp\ACF;
-use WpMunich\lhtbp\Component_Interface;
+namespace WpMunich\ekihh\ACF;
+use WpMunich\ekihh\Component_Interface;
 use function add_action;
 use function wp_get_environment_type;
 use function acf_add_options_page;
@@ -29,7 +29,7 @@ class Component implements Component_Interface {
 	 * Adds the action and filter hooks to integrate with WordPress.
 	 */
 	public function initialize() {
-		if ( wp_get_environment_type() === 'development' && defined( 'LH_CURRENTLY_EDITING' ) && LH_CURRENTLY_EDITING === 'lhtbp' ) {
+		if ( wp_get_environment_type() === 'development' && defined( 'LH_CURRENTLY_EDITING' ) && LH_CURRENTLY_EDITING === 'ekihh' ) {
 			add_filter( 'acf/settings/save_json', array( $this, 'acf_json_save_point' ) );
 		}
 
@@ -82,9 +82,9 @@ class Component implements Component_Interface {
 
 		$option_page = acf_add_options_page(
 			array(
-				'page_title' => __( 'Theme Settings', 'lhtbp' ),
-				'menu_title' => __( 'Theme Settings', 'lhtbp' ),
-				'menu_slug'  => 'lhtbp-plugin-general-settings',
+				'page_title' => __( 'Theme Settings', 'ekihh' ),
+				'menu_title' => __( 'Theme Settings', 'ekihh' ),
+				'menu_slug'  => 'ekihh-plugin-general-settings',
 				'capability' => 'edit_posts',
 				'redirect'   => false,
 			)

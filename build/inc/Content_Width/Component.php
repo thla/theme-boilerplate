@@ -2,11 +2,11 @@
 /**
  * LHTBP\Content_Width\Component class
  *
- * @package lhtbp
+ * @package ekihh
  */
 
-namespace WpMunich\lhtbp\Content_Width;
-use WpMunich\lhtbp\Component_Interface;
+namespace WpMunich\ekihh\Content_Width;
+use WpMunich\ekihh\Component_Interface;
 use function add_action;
 
 /**

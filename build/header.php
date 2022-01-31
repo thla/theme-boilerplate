@@ -6,10 +6,10 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package lhtbp
+ * @package ekihh
  */
 
-namespace WpMunich\lhtbp;
+namespace WpMunich\ekihh;
 
 ?>
 <!doctype html>
@@ -22,12 +22,12 @@ namespace WpMunich\lhtbp;
 </head>
 
 <body <?php body_class(); ?>>
-<a class="skip-link screen-reader-text" href="#content"><?php esc_attr_e( 'Skip to content', 'lhtbp' ); ?></a>
+<a class="skip-link screen-reader-text" href="#content"><?php esc_attr_e( 'Skip to content', 'ekihh' ); ?></a>
 
 <?php
-if ( wp_lhtbp()->is_nav_menu_active( 'header' ) ) {
+if ( wp_ekihh()->is_nav_menu_active( 'header' ) ) {
 	$menu_args = array(
 		'theme_location' => 'header',
 	);
-	wp_lhtbp()->display_nav_menu( $menu_args );
+	wp_ekihh()->display_nav_menu( $menu_args );
 }

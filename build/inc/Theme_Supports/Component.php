@@ -2,11 +2,11 @@
 /**
  * LHTBP\Theme_Supports\Component class
  *
- * @package lhtbp
+ * @package ekihh
  */
 
-namespace WpMunich\lhtbp\Theme_Supports;
-use WpMunich\lhtbp\Component_Interface;
+namespace WpMunich\ekihh\Theme_Supports;
+use WpMunich\ekihh\Component_Interface;
 use function add_action;
 
 /**
@@ -44,7 +44,7 @@ class Component implements Component_Interface {
 		add_theme_support(
 			'custom-background',
 			apply_filters(
-				'lhtbp_custom_background_args',
+				'ekihh_custom_background_args',
 				array(
 					'default-color' => 'ffffff',
 					'default-image' => '',

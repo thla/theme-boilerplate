@@ -2,10 +2,10 @@
 /**
  * LHTBP\Component_Interface interface
  *
- * @package lhtbp
+ * @package ekihh
  */
 
-namespace WpMunich\lhtbp;
+namespace WpMunich\ekihh;
 
 /**
  * Interface for a theme component.

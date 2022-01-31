@@ -32,8 +32,8 @@ new repository. So let's get started:
 
 ### Theme Slug & Names
 
-- [ ] Search & Replace (case sensitive) `lhtbp` with your new WordPress theme slug
-- [ ] Search & Replace (case sensitive) `_LHTBP` with your new WordPress theme slug in uppercase
+- [ ] Search & Replace (case sensitive) `ekihh` with your new WordPress theme slug
+- [ ] Search & Replace (case sensitive) `_EKIHH` with your new WordPress theme slug in uppercase
 - [ ] Check success in `package.json`, `docker-compose.json` & `bin/install-wordpress.sh`
 - [ ] Adjust `name` in `package.json` and `Theme Name` in `build/less/style.less`
 
